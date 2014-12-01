@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@drawable/testbuttons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgtwo"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp" >
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/testbuttons"
+            android:text="Accept"
+            android:textColor="@color/blackColor" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp"
+            android:layout_toLeftOf="@+id/btnAccept" >
+
+            <CheckBox
+                android:id="@+id/theaterCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@drawable/checkboxs"
+                android:paddingBottom="10dp"
+                android:text="Theater"
+                android:textColor="@color/blackColor" />
+
+            <CheckBox
+                android:id="@+id/cinemaCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxs"
+                android:paddingBottom="10dp"
+                android:text="Cinema"
+                android:textColor="@color/blackColor"
+                android:textColorHint="@color/blackColor" />
+
+            <CheckBox
+                android:id="@+id/concertCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxs"
+                android:text="Concerts"
+                android:textColor="@color/blackColor" />
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/mainmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Choose yours interests"
+            android:textColor="@color/blackColor"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+>>>>>>> abbfe3a00624ae55ebdb89f3ba3055ddc1795f5a
+</LinearLayout>

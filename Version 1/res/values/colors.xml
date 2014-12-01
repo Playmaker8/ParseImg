@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellowColor">#FFFF00</color>
+    <color name="blackColor">#000000</color>
+    <color name="azureColor">#F0FFFF</color>
+    <color name ="goldColor">#FFFFE0</color>
+</resources>
